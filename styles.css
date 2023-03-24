@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.container {
+    width: 320px;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.75);
+}
+
+.imagen-hero img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card {
+    padding: 0px 30px;
+}
+
+.titulo {
+    margin-top: 10px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-size: 22px;
+    padding: 20px 0px;
+}
+
+.parrafo {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.flex-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 20px 0;
+
+}
+
+.flex-card a {
+    margin-right: 15px;
+}
+
+.plan-price {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.plan-price img {
+    padding: 0 10px;
+}
+
+.price p {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.price span {
+    color: hsl(224, 23%, 55%);
+}
+
+.flex-card a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+.flex-card a:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+.btn {
+    width: 100%;
+}
+
+.btn button {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 100%;
+    -webkit-box-shadow: 0px 14px 20px -6px rgba(136,142,143,1);
+    -moz-box-shadow: 0px 14px 20px -6px rgba(136,142,143,1);
+    box-shadow: 0px 14px 20px -6px rgba(136,142,143,1);
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+.btn button:hover {
+    background-color: hsla(245, 75%, 52%, 0.7);
+}
+
+.cancel-orden {
+    width: 100%;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.cancel-orden a {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+}
+.cancel-orden a:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-bottom: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 400px;
+        margin: 110px auto;
+    }
+
+    body {
+        background-image: url(/images/pattern-background-desktop.svg);
+    }
+}
